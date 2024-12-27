@@ -2107,7 +2107,7 @@ footer.bg-dark .social-btns .social-btn-roll:hover {
 }
 
 .bg-primary {
-    background-color: #9352b3 !important;
+    background-color: #0EA5E9 !important;
 }
 
 .bg-success {
@@ -2135,12 +2135,12 @@ footer.bg-dark .social-btns .social-btn-roll:hover {
 }
 
 .bg-main-gradient {
-    background: #9352b3;
-    background: -webkit-linear-gradient(legacy-direction(to right), #9352b3 0%, #a11f3c 100%);
-    background: -webkit-gradient(linear, left top, right top, from(#9352b3), to(#a11f3c));
-    background: -webkit-linear-gradient(left, #9352b3 0%, #a11f3c 100%);
-    background: -o-linear-gradient(left, #9352b3 0%, #a11f3c 100%);
-    background: linear-gradient(to right, #9352b3 0%, #a11f3c 100%);
+    background: #0EA5E9;
+    background: -webkit-linear-gradient(legacy-direction(to right), #0EA5E9 0%, #38BDF8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0EA5E9), to(#38BDF8));
+    background: -webkit-linear-gradient(left, #0EA5E9 0%, #38BDF8 100%);
+    background: -o-linear-gradient(left, #0EA5E9 0%, #38BDF8 100%);
+    background: linear-gradient(to right, #0EA5E9 0%, #38BDF8 100%);
 }
 
 .bg-success-gradient {
@@ -5851,7 +5851,7 @@ main .col-md-12:last-of-type .movie-list-2 {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #9352b3;
+    background-color: #0EA5E9;
     color: white;
     border-radius: 0.25rem;
 }
