@@ -53,8 +53,16 @@
     <section class="features">
         <div class="row">
 
-            <div class="col-md-6 col-sm-12 with-bg overlay-gradient"
-                style="background: url({{ asset('images/other/people-cinema.jpg') }})"></div>
+           <!--  <div class="col-md-6 col-sm-12 with-bg overlay-gradient"
+                style="background: url({{ asset('images/other/people-cinema.jpg') }})"></div> -->
+
+                <div class="col-md-6 col-sm-12 with-bg overlay-gradient"
+                     style="background: url({{ asset('images/branding/posters/g3.jpg') }}); background-size: cover; height: 440px; width: 100%;">
+                     <img src="{{ asset('images/branding/posters/g3.jpg') }}" style="height: 100%; width: 100%; object-fit: cover;" alt="Poster">
+                </div>
+
+
+
 
             <div class="col-md-6 col-sm-12 bg-white">
                 <div class="features-wrapper">

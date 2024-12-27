@@ -8,10 +8,9 @@
     <thead class="thead-dark">
         <tr>
             <th scope="col">Show ID</th>
-            <th scope="col">Movie Title</th>
-            <th scope="col">Date</th>
-            <th scope="col">Start Time</th>
-            <th scope="col">End Time</th>
+            <th scope="col">Judul</th>
+            <th scope="col">Tanggal</th>
+            <th scope="col">Mulai</th>
             <th scope="col"></th>
             <th scope="col"></th>
         </tr>
@@ -23,7 +22,6 @@
         </th>
         <td>{{ $show->date }}</td>
         <td>{{ $show->start_time }}</td>
-        <td>{{ $show->end_time }}</td>
         <td>
             <a href="{{ route('manager.shows.edit',$show->id) }}"
                class="btn btn-warning text-white">Edit</a>
@@ -35,7 +33,7 @@
                 @method('DELETE')
                 <input class="btn btn-danger text-white"
                        type="submit"
-                       value="Delete">
+                       value="Hapus">
             </form>
         </td>
     </tr>
@@ -43,7 +41,7 @@
 </table>
 @else
 <div class="bg-light p-3 font-weight-bold rounded text-center">
-    There are currently no shows.
+    Belum dapet lisensi.
 </div>
 @endif
 @include('components.flash-message')
