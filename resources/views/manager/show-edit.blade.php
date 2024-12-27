@@ -10,7 +10,7 @@
     <div class="row">
         @include('components.form-select',[
         'name'=>'movie_id',
-        'label'=>'Movie*',
+        'label'=>'Anime',
         'classes'=>'col-6',
         'options'=>$movies,
         'required'=>'required',
@@ -18,7 +18,7 @@
         ])
         @include('components.form-select',[
         'name'=>'room',
-        'label'=>'Room size <sub>Can\'t be edited after creation</sub>',
+        'label'=>'Kursi(gk bisa diedit kalau dah dibuat)',
         'classes'=>'col-6',
         'options'=>$rooms,
         'required'=>'disabled',
@@ -29,7 +29,7 @@
     <div class="row">
         @include('components.form-date',[
         'name'=>'date',
-        'label'=>'Show Date*',
+        'label'=>'Tanggal',
         'classes'=>'col-6',
         'value'=>$show->date->toDateString(),
         'required'=>'required',
@@ -38,7 +38,7 @@
         @include('components.form-input',[
         'name'=>'price',
         'type'=>'number',
-        'label'=>'Price ('.config('app.currency').')*',
+        'label'=>'Harga',
         'classes'=>'col-6',
         'value'=>$show->price,
         'required'=>'required',
@@ -49,18 +49,12 @@
     <div class="row">
         @include('components.form-time',[
         'name'=>'start_time',
-        'label'=>'Start Time*',
+        'label'=>'Waktu Main',
         'classes'=>'col-6',
         'value'=>$show->start_time->format('H:i'),
         'required'=>'required',
         ])
-        @include('components.form-time',[
-        'name'=>'end_time',
-        'label'=>'End Time*',
-        'classes'=>'col-6',
-        'value'=>$show->end_time->format('H:i'),
-        'required'=>'required',
-        ])
+    
     </div>
 
     <div class="row justify-content-end">
@@ -69,7 +63,6 @@
         <input class="btn btn-success m-2"
                type="submit"
                value="Update">
-    </div>
 </form>
 @include('components.flash-message')
 @endsection

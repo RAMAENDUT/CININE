@@ -42,10 +42,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('home') }}">
-                <img class="w-100" src="{{ asset('images/branding/logos/logo-w.png') }}" alt="cinemat white logo">
-            </a>
+        <h1 class="nav-link text-white" onclick="window.location.href='{{ route('home') }}'" style="cursor: pointer;">CINIME</h1>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
@@ -61,22 +58,22 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">Movies</div>
+            <div class="sidebar-heading">Anime</div>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item {{ Route::is('manager.movies.*') ? 'active' : '' }}">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseMovie"
                     aria-expanded="true" aria-controls="collapseMovie">
                     <i class="fas fa-fw fa-film"></i>
-                    <span>Movies</span>
+                    <span>Anime</span>
                 </a>
                 <div id="collapseMovie" class="collapse {{ Route::is('manager.movies.*') ? 'show' : '' }}"
                     aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item {{ Route::is(['manager.movies.index', 'manager.movies.show', 'manager.movies.edit']) ? 'active' : '' }}"
-                            href="{{ route('manager.movies.index') }}">View Movies</a>
+                            href="{{ route('manager.movies.index') }}">View Anime</a>
                         <a class="collapse-item {{ Route::is('manager.movies.create') ? 'active' : '' }}"
-                            href="{{ route('manager.movies.create') }}">Add Movie</a>
+                            href="{{ route('manager.movies.create') }}">Add Anime</a>
                     </div>
                 </div>
             </li>
@@ -85,24 +82,24 @@
             <hr class="sidebar-divider">
 
             <!-- Heading -->
-            <div class="sidebar-heading">Shows</div>
+            <div class="sidebar-heading">Jadwal</div>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item {{ Route::is('manager.shows.*') ? 'active' : '' }}">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseShow"
                     aria-expanded="true" aria-controls="collapseShow">
                     <i class="fas fa-fw fa-compact-disc"></i>
-                    <span>Show</span>
+                    <span>Jadwal</span>
                 </a>
                 <div id="collapseShow" class="collapse {{ Route::is('manager.shows.*') ? 'show' : '' }}"
                     aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item {{ Route::is(['manager.shows.index', 'manager.shows.edit', 'manager.shows.show']) ? 'active' : '' }}"
                             href="{{ route('manager.shows.index') }}">View
-                            Shows</a>
+                            Jadwal</a>
                         <a class="collapse-item {{ Route::is('manager.shows.create') ? 'active' : '' }}"
                             href="{{ route('manager.shows.create') }}">Add
-                            Show</a>
+                            Jadwal</a>
                     </div>
                 </div>
             </li>

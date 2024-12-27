@@ -39,7 +39,7 @@
 
             <!-- Sidebar - Brand -->
             <li class="nav-item">
-                        <h1 class="nav-link" href={{ route('home') }}>CINIME</h1>
+                <h1 class="nav-link text-white" onclick="window.location.href='{{ route('home') }}'" style="cursor: pointer;">CINIME</h1>
                     </li>
             </a>
 

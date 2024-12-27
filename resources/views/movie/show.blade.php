@@ -84,7 +84,7 @@
                                         <tr class="{{ $show->remaining_seats < 5 ? 'table-danger' : '' }}">
                                             <th>{{ $show->date->toDateString() }}</th>
                                             <th>{{ $show->start_time->toTimeString() }}</th>
-                                            <td>{{ $show->price . ' ' . config('app.currency') }}
+                                            <td>{{ 'Rp ' . $show->price }}</td>
                                             </td>
                                             <td>{{ $show->remaining_seats . '/' . $show->room->size }}
                                             </td>
