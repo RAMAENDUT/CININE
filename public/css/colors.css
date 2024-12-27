@@ -11,7 +11,7 @@ Author URI: gnodesign.com
 
 
 /* --------------------------------------
-    MAIN COLOR === #9352b3
+    MAIN COLOR === #0EA5E9
 -------------------------------------- */
 
 
@@ -32,11 +32,11 @@ a:hover,
 .contact-page .details-wrapper ul.contact-details li i,
 .bloglist-post-holder .bloglist-title a:hover,
 .blog-post .post-content a.read-more {
-    color: #9352b3;
+    color: #0EA5E9;
 }
 
 .main-bg {
-    background: #9352b3;
+    background: #0EA5E9;
 }
 
 
@@ -52,19 +52,19 @@ a:hover,
 .layout-switcher a:hover,
 .layout-switcher a.active,
 .mm-counter {
-    background: #9352b3;
+    background: #0EA5E9;
 }
 
 
 
 
 /* --------------------------------------
-    SECONDARY COLOR === #a11f3c
+    SECONDARY COLOR === #38BDF8
 -------------------------------------- */
 
 /* Color */
 .btn-second {
-    background: #a11f3c;
+    background: #38BDF8;
 }
 
 
@@ -82,8 +82,8 @@ ul.blog-posts-widget .blog-content .blog-thumb a:before,
 .bloglist-post-holder .bloglist-thumb-link .bloglist-post-thumbnail:after,
 .movie-box-1 .poster:before,
 .movie-detail-intro2 .movie-poster:before {
-    background: -webkit-gradient(linear, left top, left bottom, from(#a11f3c), to(#9352b3));
-    background: -webkit-linear-gradient(bottom, #9352b3 0%, #a11f3c 100%);
-    background: -o-linear-gradient(bottom, #9352b3 0%, #a11f3c 100%);
-    background: linear-gradient(to bottom, #a11f3c 0%, #9352b3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#38BDF8), to(#0ea4e959));
+    background: -webkit-linear-gradient(bottom, #0ea4e900 0%, #38bff82c 100%);
+    background: -o-linear-gradient(bottom, #0ea4e900 0%, #38bff83a 100%);
+    background: linear-gradient(to bottom, #38bff87a 0%, #0ea4e94b 100%);
 }
