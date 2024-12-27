@@ -8,9 +8,14 @@
                 <!-- ===== SLIDE NR. 1 ===== -->
                 <li data-transition="fade">
                     <!-- MAIN IMAGE -->
-                    <img src="{{ asset('images/branding/posters/movie-collection.webp') }}" alt="Image"
+                    <!--img src="{{ asset('images/branding/posters/movie-collection.webp') }}" alt="Image"
+                        title="slider-bg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                        data-bgparallax="10" class="rev-slidebg" data-no-retina=""-->
+
+                        <img src="{{ asset('images/branding/posters/g1.png') }}" alt="Image"
                         title="slider-bg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                         data-bgparallax="10" class="rev-slidebg" data-no-retina="">
+
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-resizeme" data-x="center" data-hoffset="" data-y="middle"
                         data-voffset="['-80','-80','-80','-80']" data-responsive_offset="on"

@@ -9,14 +9,14 @@
         @include('components.form-input',[
         'name'=>'image',
         'classes'=>'col-6',
-        'label'=>'Poster Image',
+        'label'=>'Poster ',
         'required'=>'required',
         'type'=>'file',
         ])
         @include('components.form-input',[
         'name'=>'title',
         'classes'=>'col-6',
-        'label'=>'Image Title*',
+        'label'=>'Judul',
         'required'=>'required',
         'type'=>'text',
         'value'=>old('title'),
@@ -25,7 +25,7 @@
     <div class="row">
         @include('components.form-select',[
         'name'=>'category_id',
-        'label'=>'Category*',
+        'label'=>'Genre',
         'classes'=>'col-6',
         'options'=>$categories,
         'required'=>'required',
@@ -34,7 +34,7 @@
         @include('components.form-input',[
         'name'=>'language',
         'classes'=>'col-6',
-        'label'=>'Movie Language*',
+        'label'=>'Bahasa',
         'required'=>'required',
         'type'=>'text',
         'value'=>old('language'),
@@ -45,7 +45,7 @@
         @include('components.form-input',[
         'name'=>'rating',
         'classes'=>'col-6',
-        'label'=>'Movie Rating*',
+        'label'=>'Rating Skor',
         'required'=>'required',
         'type'=>'number',
         'value'=>old('rating'),
@@ -53,7 +53,7 @@
         ])
         @include('components.form-date',[
         'name'=>'release_date',
-        'label'=>'Movie Release Date*',
+        'label'=>'Tanggal Rilis',
         'classes'=>'col-6',
         'value'=>old('release_date'),
         'required'=>'required',
@@ -64,7 +64,7 @@
         @include('components.form-input',[
         'name'=>'director',
         'classes'=>'col-6',
-        'label'=>'Director*',
+        'label'=>'Director',
         'required'=>'required',
         'type'=>'text',
         'value'=>old('director'),
@@ -72,7 +72,7 @@
         @include('components.form-input',[
         'name'=>'maturity_rating',
         'classes'=>'col-6',
-        'label'=>'Maturity Rating*',
+        'label'=>'Rating',
         'required'=>'required',
         'type'=>'text',
         'value'=>old('maturity_rating'),
@@ -81,7 +81,7 @@
     <div class="row">
         @include('components.form-time',[
         'name'=>'running_time',
-        'label'=>'Running Time*',
+        'label'=>'Durasi',
         'classes'=>'col-6',
         'value'=>old('running_time'),
         'required'=>'required',
@@ -89,7 +89,7 @@
         @include('components.form-textarea',[
         'name'=>'storyline',
         'classes'=>'col-6',
-        'label'=>'Movie Storyline*',
+        'label'=>'Sinopsis',
         'required'=>'required',
         'value'=>old('storyline'),
         ])
